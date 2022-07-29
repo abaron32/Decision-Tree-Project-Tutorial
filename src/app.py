@@ -6,15 +6,17 @@ import numpy as np
 import matplotlib.pyplot as plt  
 import seaborn as sns
 import plotly.express as px
-from sklearn.model_selection import train_test_split
 import statsmodels.api as sm
-from sklearn import metrics
-from sklearn.model_selection import GridSearchCV
-from sklearn.pipeline import make_pipeline
 import pickle
+
+
+from sklearn import metrics
+from sklearn.pipeline import make_pipeline
+from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
-from sklearn.tree import DecisionTreeClassifier
 from sklearn import tree
+from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import confusion_matrix
 from sklearn.metrics import ConfusionMatrixDisplay
 from sklearn.metrics import classification_report
